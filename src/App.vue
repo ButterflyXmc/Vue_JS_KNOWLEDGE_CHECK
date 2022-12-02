@@ -1,17 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- 3. USE -->
+    <ScriptExample />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
+<script>
+// 1. DECLARE!!
+import ScriptExample from "@/components/ScriptExample.vue";
+
+// 2. REGISTER!!
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    ScriptExample,
+  },
+};
 </script>
 
 <style>
